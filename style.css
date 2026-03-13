@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { background-color: #e3e6e6; }
+
+/* Navbar Styling */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-search {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 15px;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.search-btn {
+    background-color: #febd69;
+    border: none;
+    padding: 10px 15px;
+}
+
+/* Category Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: -100px; /* Overlap effect on hero banner */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.card-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.card img { width: 100%; height: auto; }
